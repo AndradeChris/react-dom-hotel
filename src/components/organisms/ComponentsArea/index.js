@@ -4,6 +4,7 @@ import SubTitle from '../../atoms/SubTitle/index.js';
 import GenericInput from '../../atoms/GenericInput/index.js';
 import * as S from './styles.js';
 import { useState } from 'react';
+import Anchor from '../../atoms/Anchor/index.js'
 
 const ComponentsArea = () => {
   const miniTitleCollection = [{ price: "150,00" }, { price: "250,00" }, { price: "350,00" }];
@@ -56,8 +57,10 @@ const ComponentsArea = () => {
       {inputsData.map((element, index) => (
         <GenericInput key={index} type={element.type} placeholder={element.placeholder} />
       ))}
+      <Anchor />
     </S.Wrapper>
-  );
-};
+  )
+}
 
-export default ComponentsArea;
+
+export default ComponentsArea
