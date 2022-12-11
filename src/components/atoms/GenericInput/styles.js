@@ -9,6 +9,7 @@ export const InputTypes = styled.input`
     border-radius: 0.5rem;
     box-shadow: 5px 5px 5px #a0a0a0ea;
     &:focus{
+        outline: none;
         border: 2px solid #02732A;
     }
 `;
