@@ -254,8 +254,11 @@ export const Reservas = () => {
         <Modal isOpen={resumeOpen} setIsOpen={setResumeOpen}>
          <S.HeaderModal>
             <SubTitle>Resumo da Reserva</SubTitle>
+            <h4> Confirme as informações abaixo para finalizar a reserva</h4>
          </S.HeaderModal>
-          <div>Larissa</div>
+          <div> Dados</div>
+          <div> Acomodação</div>
+          <div> </div>
         </Modal>
     </S.ContainerModal>
     </S.PrincipalContainer>
