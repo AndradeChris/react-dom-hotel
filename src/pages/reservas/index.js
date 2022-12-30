@@ -112,6 +112,8 @@ export const Reservas = () => {
 
   const [modalOpen, setModalOpen] = useState(false)
 
+  const [resumeOpen, setResumeOpen] = useState(false)
+
   const quartos = [
     {
       title: 'Standard',
@@ -221,7 +223,7 @@ export const Reservas = () => {
             <UnorderedList arr={resumeItens.map((element) => (
               `${element.name} ${element.content}`
             ))} />
-            <Button width='100%'>Confirmar</Button>
+            <Button width='100%' action={(HandleClick) => { setResumeOpen(true) }}>Confirmar</Button>
         </S.ContainerResume>
       </S.RoomsContainer>
        
@@ -248,6 +250,12 @@ export const Reservas = () => {
           <S.Btn01>
             <Button>Confirmar</Button>
           </S.Btn01>
+        </Modal>
+        <Modal isOpen={resumeOpen} setIsOpen={setResumeOpen}>
+         <S.HeaderModal>
+            <SubTitle>Resumo da Reserva</SubTitle>
+         </S.HeaderModal>
+          <div>Larissa</div>
         </Modal>
     </S.ContainerModal>
     </S.PrincipalContainer>
