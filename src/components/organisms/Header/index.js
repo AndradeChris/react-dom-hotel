@@ -13,6 +13,7 @@ import * as S from './styles'
 export const Header = () => {
   const [showModal, setShowModal] = useState(false)
   const [isLogged, setIsLogged] = useState(false)
+  const [loggedName, setLoggedName] = useState('')
   const [isDesktop, setIsDesktop] = useState(window.innerWidth > 768)
 
   useEffect(() => {
@@ -30,6 +31,11 @@ export const Header = () => {
     setIsDesktop(window.innerWidth > 768)
   }
 
+  const handleLogout = () => {
+    setIsLogged(false)
+    sessionStorage.removeItem('isLogged')
+  }
+
   
   return (
    <S.Header>
@@ -44,8 +50,8 @@ export const Header = () => {
        ? <div className='-body-right'>
         {isLogged && (
           <>
-            <Anchor href='#' msg={`Olá ${'Usuário'}`} />
-            <Anchor action={() => setIsLogged(false)} msg='Sair' />
+            <Anchor href='#' msg={`Olá ${loggedName.toUpperCase()}`} />
+            <Anchor action={handleLogout} msg='Sair' />
           </>
         )}
         {!isLogged && (
@@ -69,7 +75,7 @@ export const Header = () => {
         </div>
       </div>
       <Modal isOpen={showModal} setIsOpen={setShowModal}>
-        <LoginContent type={'sign-in'} setIsLogged={setIsLogged}/>
+        <LoginContent type={'sign-in'} setIsLogged={setIsLogged} setLoggedName={setLoggedName} />
       </Modal>
    </S.Header>
   )
