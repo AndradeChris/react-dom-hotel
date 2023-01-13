@@ -1,9 +1,9 @@
 // Arquivo criado: 10/12/2022 às 11:55
 
-import React, { useRef, useState } from 'react'
 import PropTypes from 'prop-types'
-import * as S from './styles.js'
+import React, { useRef, useState } from 'react'
 import { pallete } from '../../../pallete.js'
+import * as S from './styles.js'
 
 /**
  * 
@@ -63,7 +63,8 @@ export default function TextArea({
   name,
   id,
   width = '100%',
-  height = '150px'
+  height = '150px',
+  onChange
 }) {
 
   const Component = useDefaultStyle ? S.textarea : S.empty
@@ -97,7 +98,7 @@ export default function TextArea({
       disabled={disabled}
       name={name}
       id={id}
-      onChange={handleVal}
+      onChange={(e) => { handleVal(e); onChange(e) }}
 
       // Atributos do React
       ref={ref}

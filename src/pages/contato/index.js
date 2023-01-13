@@ -15,14 +15,16 @@ export const Contato = () => {
     {
       email: '',
       name: '',
-      telephone: ''
+      telephone: '',
+      textArea: ''
     }
   )
   const [errorFields, setErrosFields] = useState(
     {
       email: false,
       name: false,
-      telephone: false
+      telephone: false,
+      textArea: false
     }
   )
 
@@ -79,6 +81,24 @@ export const Contato = () => {
       type: 'tel'
     }
   ]
+
+  const handleButton = () => {
+    if (valueFields.email === '' || valueFields.name === '' || valueFields.telephone === '' || valueFields.textArea === '') {
+      if (valueFields.email === '') {
+        setErrosFields((prev) => ({ ...prev, email: true }))
+      }
+      if (valueFields.telephone === '') {
+        setErrosFields((prev) => ({ ...prev, telephone: true }))
+      }
+      if (valueFields.name === '') {
+        setErrosFields((prev) => ({ ...prev, name: true }))
+      }
+      if (valueFields.textArea === '') {
+        setErrosFields((prev) => ({ ...prev, textArea: true }))
+      }
+    }
+  } 
+ 
   
   return (
     <S.Wrapper>      
@@ -108,9 +128,9 @@ export const Contato = () => {
       </S.Container>
       <S.Container className='inputsContainer'>
         <GenericLabel for='comentario'>Deixe um comentário:</GenericLabel>
-        <TextArea id='comentario' rows={10}/>
+        <TextArea onChange={(e) => setValueFields((prev) => ({ ...prev, textArea: e.target.value }))} id='comentario' rows={10}/>
       </S.Container>
-        <Button disabled={(errorFields.email || errorFields.name || errorFields.telephone)}>Enviar</Button>
+        <Button action={handleButton} disabled={(errorFields.email || errorFields.name || errorFields.telephone)}>Enviar</Button>
       </S.FormContainer>
     </S.Wrapper>
   )
