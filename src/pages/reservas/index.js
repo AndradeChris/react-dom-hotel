@@ -167,19 +167,19 @@ export const Reservas = () => {
   const quartos = [
     {
       title: 'Standard',
-      description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto esse tempore hic nemo! Quam consequuntur ex rem, similique esse totam recusandae, ea voluptas neque vitae amet sapiente impedit sint cum!',
+      description: 'Nosso quarto standart é a melhor opção para quem está procurando toda a diversão do nosso hotel, com economia e sem abrir mão do conforto, com uma cama de casal confortável, frigobar, wi-fi, TV com acesso aos melhores streammings, mesa para computador e sacada! ',
       price: '120,00',
       img: standard
     },
     {
       title: 'Premium',
-      description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto esse tempore hic nemo! Quam consequuntur ex rem, similique esse totam recusandae, ea voluptas neque vitae amet sapiente impedit sint cum!',
+      description: 'Conforto e praticidade em uma suíte moderna e agradável, com cama queen size, frigobar, TV com acesso aos melhores streammings, sacada espaçosa, wi-fi, cofre, sala de estar e mesa para computador!',
       price: '160,00',
       img: premium
     },
     {
       title: 'VIP',
-      description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto esse tempore hic nemo! Quam consequuntur ex rem, similique esse totam recusandae, ea voluptas neque vitae amet sapiente impedit sint cum!',
+      description: 'Nossa suíte vip é espaçosa e incrivelmente aconchegante e conta com cama king Size, banheira de hidromassagem, frigobar, TV com acesso aos melhores streammings, sacada gourmet, wi-fi, cofre, sala de estar, mesa para computador e vista panorâmica!',
       price: '200,00',
       img: vip
     }
@@ -326,7 +326,6 @@ export const Reservas = () => {
                 <S.ModalCont>
                 <GenericLabel>
                 <GenericInput type={element.type} onClick={handleCheckbox} name={element.name} id={element.id} value={element.price}></GenericInput>
-                <GenericInput type={element.type} name={element.name} price={element.price} id={element.id}></GenericInput>
                 </GenericLabel>
                 <DescriptionParagraph msg={element.msg}></DescriptionParagraph></S.ModalCont><SpanText>{element.price}</SpanText>
               </li>
