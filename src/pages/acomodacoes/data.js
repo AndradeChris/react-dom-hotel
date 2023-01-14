@@ -20,14 +20,14 @@ export const contentRoomBox = [
       id: '7895',
       src: quarto1,
       alt: 'primeiro quarto standard',
-      titleDescription: 'Com decoração inspirada na estética nórdica o quarto Bem-te-vi é a nossa primeira opção standard, com tons terrosos e verde floresta fazemos uma homenagem a nossa flora diversa sem perder o toque de sofisticação do hotel!'
+      titleDescription: 'Com decoração inspirada na estética nórdica o quarto Bem-te-vi é a a primeira opção standard, com tons terrosos e verde floresta fazemos uma homenagem a nossa flora diversa sem perder o toque de sofisticação do hotel!'
     },
     {
       title: 'Canário',
       id: '909',
       src: quarto3,
       alt: 'primeiro quarto standard',
-      titleDescription: 'Conheça o quarto canário, com estilo minimalista e decoração em tons de bege, marrom e branco, nosso quarto foi pensado para hóspedes práticos, que gostam da estética clean e que são fãs de organização e sutileza.'
+      titleDescription: 'Conheça o quarto canário, com estilo minimalista e decoração em tons de bege, marrom e branco, o quarto foi pensado para hóspedes práticos, que gostam da estética clean e que são fãs de organização e sutileza.'
     },
     {
       id: '26640',
@@ -58,7 +58,7 @@ export const contentRoomBox = [
       id: '2454',
       src: quarto6,
       alt: 'primeiro quarto standard',
-      titleDescription: 'Nossa terceira opção de acomodação é quarto Coleirinho, charmoso nostálgico com um estilo rústico, decorado em madeira e tecidos em tons claros. Para quem gosta de sentir a sensação de estar no interior, sem perder a agitação da cidade!'
+      titleDescription: 'A terceira opção de acomodação é quarto Coleirinho, charmoso nostálgico com um estilo rústico, decorado em madeira e tecidos em tons claros. Para quem gosta de sentir a sensação de estar no interior, sem perder a agitação da cidade!'
     }]
   },
   {
@@ -68,7 +68,7 @@ export const contentRoomBox = [
       id: '8315',
       src: quarto7,
       alt: 'primeiro quarto standard',
-      titleDescription: 'A suíte quero-quero é nossa primeira opção de acomodação Vip, e traz o que existe de melhor no conceito de conforto e elegância, com a decoração mais clean em tons de azul claro e bege, e marrom. Um verdadeiro privilégio ao acordar.'
+      titleDescription: 'A suíte quero-quero é a primeira opção de acomodação Vip, e traz o que existe de melhor no conceito de conforto e elegância, com a decoração mais clean em tons de azul claro e bege, e marrom. Um verdadeiro privilégio ao acordar.'
     },
     {
       title: 'Gaivota',
@@ -82,7 +82,7 @@ export const contentRoomBox = [
       id: '37',
       src: quarto9,
       alt: 'primeiro quarto standard',
-      titleDescription: 'O clássico contemporâneo também está presente na elegante suíte Gavião, a nossa terceira opção de acomodação é premiada e têm em sua decoração referências do estilo parisiense, trazendo charme, beleza e conforto!.'
+      titleDescription: 'O clássico contemporâneo também está presente na elegante suíte Gavião, a terceira opção de acomodação é premiada e têm em sua decoração referências do estilo parisiense, trazendo charme, beleza e conforto!.'
     }]
   }
 ] 

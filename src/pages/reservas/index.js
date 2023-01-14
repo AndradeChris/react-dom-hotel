@@ -167,7 +167,7 @@ export const Reservas = () => {
   const quartos = [
     {
       title: 'Standard',
-      description: 'Nosso quarto standart é a melhor opção para quem está procurando toda a diversão do nosso hotel, com economia e sem abrir mão do conforto, com uma cama de casal confortável, frigobar, wi-fi, TV com acesso aos melhores streammings, mesa para computador e sacada! ',
+      description: 'O quarto standart é a melhor opção para quem está procurando toda a diversão do nosso hotel, com economia e sem abrir mão do conforto, com uma cama de casal confortável, frigobar, wi-fi, TV com acesso aos melhores streammings, mesa para computador e sacada! ',
       price: '120,00',
       img: standard
     },
@@ -179,7 +179,7 @@ export const Reservas = () => {
     },
     {
       title: 'VIP',
-      description: 'Nossa suíte vip é espaçosa e incrivelmente aconchegante e conta com cama king Size, banheira de hidromassagem, frigobar, TV com acesso aos melhores streammings, sacada gourmet, wi-fi, cofre, sala de estar, mesa para computador e vista panorâmica!',
+      description: 'A suíte vip é espaçosa e incrivelmente aconchegante e conta com cama king Size, banheira de hidromassagem, frigobar, TV com acesso aos melhores streammings, sacada gourmet, wi-fi, cofre, sala de estar, mesa para computador e vista panorâmica!',
       price: '200,00',
       img: vip
     }
