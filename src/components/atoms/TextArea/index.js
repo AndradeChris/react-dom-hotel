@@ -65,8 +65,7 @@ export default function TextArea({
   onChange,
   error,
   width = '100%',
-  height = '150px',
-  onChange
+  height = '150px'
 }) {
 
   const Component = useDefaultStyle ? S.textarea : S.empty

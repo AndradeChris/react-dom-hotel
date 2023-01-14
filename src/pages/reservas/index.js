@@ -12,9 +12,9 @@ import PrincipalTitle from '../../components/atoms/PrincipalTitle'
 import SubTitle from '../../components/atoms/SubTitle'
 import UnorderedList from '../../components/atoms/UnorderedList'
 import { validateEmail, validateName, validateNumber } from '../../utils/validateFields'
-import premium from './images/acomodacao_premium.jpg'
-import standard from './images/acomodacao_standard.jpg'
-import vip from './images/acomodacao_vip.jpg'
+import premium from './images/acomodacao_premium.webp'
+import standard from './images/acomodacao_standard.webp'
+import vip from './images/acomodacao_vip.webp'
 import * as S from './styles'
 
 

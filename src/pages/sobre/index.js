@@ -4,10 +4,10 @@ import DescriptionParagraph from '../../components/atoms/DescriptionParagraph'
 import ImageDefault from '../../components/atoms/ImageDefault'
 import PrincipalTitle from '../../components/atoms/PrincipalTitle'
 import SubTitle from '../../components/atoms/SubTitle'
-import premio2 from './imgs/premio_2019.jpg'
+import premio2 from './imgs/premio_2019.webp'
 import premio1 from './imgs/premio_2021.webp'
-import img1 from './imgs/quem_somos.jpg'
-import premio3 from './imgs/selo-turismo.png'
+import img1 from './imgs/quem_somos.webp'
+import premio3 from './imgs/selo-turismo.webp'
 import * as S from './styles'
 
 
