@@ -40,7 +40,7 @@ export const Sobre = () => {
         </div>
         <DescriptionParagraph
           className='-mensagem-text'
-          msg={'Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod sint ea voluptas modi placeat ipsam accusamus doloremque illum nisi adipisci beatae officia, error, quibusdam omnis eius illo iste itaque at facere! Veritatis magnam dolorem saepe hic iusto in provident error officiis voluptatibus! Culpa labore animi assumenda nihil voluptatum omnis doloribus tenetur incidunt, suscipit maxime eveniet molestiae nesciunt velit? Repellendus mollitia distinctio dolores nemo dolore repudiandae eos consequuntur tempore, rerum expedita a. Cum animi commodi quia odio dolorum sed ut accusamus sunt perferendis!'}
+          msg={'O Dom Hotel foi criado para oferecer o que há de melhor em conforto, modernidade e entretenimento. Construído com estética autosustentável, possuímos coleta seletiva, reaproveitamento de água e placas de energia solar, e uma área verde com espécies nativas. Nossos quartos tem nomes inspirados nos pássaros mais conhecidos da região e com decorações únicas que mantém o conceito multicultural. Com uma equipe de profissionais de excelência, nossos serviços são pensados para que nossos hóspedes desfrutem de luxo, sofisticação e praticidade. Nossos hóspedes podem optar por uma gastronomia rica e diversa e as melhores opções de café da manhã das 6h às 10:30h! Estamos localizados perto dos principais pontos turísticos, restaurantes e feiras da cidade. Possuímos transfer do aeroporto.'}
         />
       </div>
 

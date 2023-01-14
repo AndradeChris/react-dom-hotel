@@ -24,9 +24,7 @@ export const Contato = () => {
     {
       email: false,
       name: false,
-      telephone: false,
-      select: false,
-      textArea: false
+      telephone: false
     }
   )
 
@@ -101,26 +99,6 @@ export const Contato = () => {
       type: 'tel'
     }
   ]
-
-  const handleButton = () => {
-    if (valueFields.email === '' || valueFields.name === '' || valueFields.telephone === '' || valueFields.select === 'checked' || valueFields.textArea === '') {
-      if (valueFields.email === '') {
-        setErrosFields((prev) => ({ ...prev, email: true }))
-      }
-      if (valueFields.telephone === '') {
-        setErrosFields((prev) => ({ ...prev, telephone: true }))
-      }
-      if (valueFields.name === '') {
-        setErrosFields((prev) => ({ ...prev, name: true }))
-      }
-      if (valueFields.select === 'checked') {
-        setErrosFields((prev) => ({ ...prev, select: true }))
-      }
-      if (valueFields.textArea === '') {
-        setErrosFields((prev) => ({ ...prev, textArea: true }))
-      } 
-    }
-  }
   
   return (
     <S.Wrapper>      
@@ -150,9 +128,9 @@ export const Contato = () => {
       </S.Container>
       <S.Container className='inputsContainer'>
         <GenericLabel for='comentario'>Deixe um comentário:</GenericLabel>
-        <TextArea id='comentario' rows={10} onChange={handleTextArea} error={errorFields.textArea}/>
+        <TextArea id='comentario' rows={10}/>
       </S.Container>
-        <Button action={handleButton} disabled={(errorFields.email || errorFields.name || errorFields.telephone || errorFields.select || errorFields.textArea)}>Enviar</Button>
+        <Button disabled={(errorFields.email || errorFields.name || errorFields.telephone || errorFields.textArea)}>Enviar</Button>
       </S.FormContainer>
     </S.Wrapper>
   )

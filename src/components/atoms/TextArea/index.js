@@ -65,7 +65,8 @@ export default function TextArea({
   onChange,
   error,
   width = '100%',
-  height = '150px'
+  height = '150px',
+  onChange
 }) {
 
   const Component = useDefaultStyle ? S.textarea : S.empty
@@ -100,7 +101,7 @@ export default function TextArea({
       disabled={disabled}
       name={name}
       id={id}
-      onChange={handleVal}
+      onChange={(e) => { handleVal(e); onChange(e) }}
 
       // Atributos do React
       ref={ref}
