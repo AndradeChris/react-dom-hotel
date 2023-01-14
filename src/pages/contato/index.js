@@ -63,16 +63,6 @@ export const Contato = () => {
     }
     setErrosFields((prev) => ({ ...prev, select: true }))
   }
-
-  const handleTextArea = (event) => {
-    valueFields.textArea = event.target.value
-    if (valueFields.textArea !== '') {
-      setErrosFields((prev) => ({ ...prev, textArea: false }))
-      return
-    }
-    setErrosFields((prev) => ({ ...prev, textArea: true }))
-  }
-
   const inputsContact = [
     { 
       id: 'name-contact',
