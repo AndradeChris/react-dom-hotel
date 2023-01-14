@@ -27,7 +27,7 @@ export const contentRoomBox = [
       id: '909',
       src: quarto3,
       alt: 'primeiro quarto standard',
-      titleDescription: 'Conheça o quarto canário, com estilo minimalista e decoração em tons de bege, marrom e branco, nosso quarto foi pensado para hóspedes práticos, que gostam da estética clean e que são fãs de organização e sutileza'
+      titleDescription: 'Conheça o quarto canário, com estilo minimalista e decoração em tons de bege, marrom e branco, nosso quarto foi pensado para hóspedes práticos, que gostam da estética clean e que são fãs de organização e sutileza.'
     },
     {
       id: '26640',
@@ -75,14 +75,14 @@ export const contentRoomBox = [
       id: '23373',
       src: quarto8,
       alt: 'primeiro quarto standard',
-      titleDescription: 'A segunda opção de acomodação Vip é o quarto Gaivota, e é a opção perfeita para quem gosta da estética nórdica, com o aconchego do estilo mais moderno. A suíte ideal para quem quer conforto e muito estilo'
+      titleDescription: 'A segunda opção de acomodação Vip é o quarto Gaivota, e é a opção perfeita para quem gosta da estética nórdica, com o aconchego do estilo mais moderno. A suíte ideal para quem quer conforto e muito estilo.'
     },
     {
       title: 'Gavião',
       id: '37',
       src: quarto9,
       alt: 'primeiro quarto standard',
-      titleDescription: 'O clássico imperial também está presente na elegante suíte Gavião, a nossa terceira opção de acomodação é premiada e têm em sua decoração referências do estilo parisiense, trazendo charme, beleza e conforto!.'
+      titleDescription: 'O clássico contemporâneo também está presente na elegante suíte Gavião, a nossa terceira opção de acomodação é premiada e têm em sua decoração referências do estilo parisiense, trazendo charme, beleza e conforto!.'
     }]
   }
 ] 
